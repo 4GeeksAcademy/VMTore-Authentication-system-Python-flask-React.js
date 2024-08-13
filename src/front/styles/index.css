@@ -1,3 +1,106 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+@font-face {
+    font-family: "titles";
+    src: url("/public/fonts/Super\ Session\ Personal\ Use.ttf")
+      format("truetype");
+  }
+
+body {
+    background-image: url("https://images4.alphacoders.com/132/1323882.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Corben";
+}
+
+h1 {
+    font-family: "Corben";
+    font-weight: 700;
+    font-size: 6.5vh;
+    text-shadow: 4px 3px 1px rgba(0, 0, 0, 10);
+}
+
+.bloc {
+    width: 270px;
+    height: auto;
+    filter: drop-shadow(0, 0, 0, 10);
+}
+
+nav {
+    display: inline;
+}
+
+
+nav .bg-dark {
+    background-color: chocolate !important;
+}
+
+.navbar-dark .navbar-brand {
+    text-decoration: none;
+    color: chocolate;
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+a {
+    color: chocolate;
+}
+
+.bloc {
+    filter:drop-shadow(10px 3px 5px rgb(0, 0, 0))
+}
+
+h1 {
+    color: chocolate;
+    justify-content: center;
+}
+
+.btn-warning {
+    background-color: chocolate;
+    border-color: chocolate;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 10);
+}
+
+.btn-warning:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 10);
+}
+
+.btn-success {
+    background-color: rgb(89, 167, 86);
+    border-color: rgb(89, 167, 86);
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 10);
+    color: black;
+}
+
+.btn-success:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 10);
+}
+.btn-danger {
+    background-color: rgb(161, 9, 9);
+    border-color: rgb(161, 9, 9);
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 10);
+    color: black;
+}
+
+.btn-danger:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 10);
+}
+
+
+.register-box,
+.login-box {
+    width: 50%;
+}
+
+label {
+    color: chocolate;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 10);
+}
+
+.form-text {
+    color: rgb(155, 78, 23);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 10);
+}
